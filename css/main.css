@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+	background-color: #99ccff;
+	margin: 150px;
+	padding: 300px;
+}
+.pasto{
+	background-color: #33cc33;
+	position: relative;
+	width: 200px
+	height: 200px;
+
+
+}
+
+
+}
