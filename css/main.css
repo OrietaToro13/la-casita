@@ -1,20 +1,70 @@
 body{
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 0px;
 }
 .contenedor{
 	background-color: #99ccff;
-	margin: 150px;
-	padding: 300px;
-}
-.pasto{
-	background-color: #33cc33;
 	position: relative;
-	width: 200px
-	height: 200px;
+	text-align: center;
+	margin: 260px;
+	width: 750px;
+	height: 550px;
+}
+#pasto{
+	background-color: #33CC33;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 750px;
+	height: 106px;
+}
+#sol{
+	background-color: #ffff00;
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 119px;
+	top: 85px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+#casa{
+	background-color: #990000;
+	position: absolute;
+	width: 360px;
+	height: 180px;
+	bottom: 58px;
+	right: 40px;
+}
+#puerta{
+	background-color: #ffffb3;
+	position: absolute;
+	width: 90px;
+	height: 150px;
+	bottom: 4px;
+	right: 180px;
+}
+#corazon{
 
-
+}
+#ventana{
+	background-color: #ffffb3;
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	bottom: 44px;
+	right: 30px;
+}
+#trapecio1{
+	position: absolute;
+	border-bottom: 100px solid blue;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 281px;
+	top: 213px;
+	right: 27px;
 }
 
 
-}
